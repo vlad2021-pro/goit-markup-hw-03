@@ -1,0 +1,323 @@
+/* основной цвет ntcnf #212121 */
+/* вторичный цвет #757575 */
+/* Белый цвет */
+/* Ацент- #2196F3 */
+/* цвет контактов футера rgba(255, 255, 255, 0.6);*/
+/* вторичный цвет фона #F5F4FA */
+
+:root {
+  --primary-texr-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #fff;
+  --black-color: #000000;
+  --color-baner: #2f303a;
+  --current-fon-color: #f5f4fa;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ul,
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+img {
+  display: block;
+}
+body {
+  color: var(--title-text-color);
+  background-color: var(--white-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* ***Шапка сайта**** */
+/* Logo  для индекса и портфолио*/
+.container {
+  width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  color: var(--accent-color);
+
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo :hover {
+  color: var(--accent-color);
+}
+.logo-black {
+  color: var(--black-color);
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.19;
+}
+/* Site-nav */
+.site-nav {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.site-nav .link {
+  color: var(--primary-texr-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.item:not(:last-child) {
+  margin-right: 50px;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* Contact-list  для индекса и портфолио*/
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
+.contacts {
+  list-style-type: none;
+  margin-left: auto;
+  display: flex;
+}
+.contacts-link {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+.contacts-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 50px;
+}
+.contacts-link.two {
+  margin-right: 0px;
+}
+
+/* ***Блок-герой*** */
+.hero {
+  background-color: var(--color-baner);
+}
+.hero-title {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  padding-left: 282px;
+  padding-right: 230px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+/* Section */
+.section-title {
+  color: var(--primary-texr-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Features */
+.features {
+  color: var(--primary-texr-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-list {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* Team-list */
+.section-team {
+  background-color: var(--current-fon-color);
+}
+.team-list {
+  color: var(--primary-texr-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.team-professional {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/* Вutton  */
+.button {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background: var(--accent-color);
+  padding: 10px 32px;
+  border-radius: 4px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* Footer */
+.footer {
+  background-color: var(--color-baner);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.14;
+}
+
+.logo-footer {
+  color: var(--accent-color);
+
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-footer :hover {
+  color: var(--accent-color);
+}
+.logo-white {
+  color: var(--white-color);
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.address {
+  color: var(--white-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.contacts-footer {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+
+/* Портфолио */
+/* Навигация страницы портфолио */
+
+.nav-portfolio,
+.nav {
+  color: var(--primary-texr-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.nav-portfolio .nav:hover,
+.nav-portfolio .nav:focus {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.nav-portfolio .nav-current {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+/* .section-portfolio */
+.section-portfolio {
+  color: var(--primary-texr-color);
+}
+
+/* примеры работ */
+.work-list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.examples {
+  color: var(--primary-texr-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.examples-list {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+}
+/* Button-portfolio */
+.button-portfolio .button-current {
+  color: var(--primary-texr-color);
+  background-color: var(--current-fon-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.button-portfolio .button-current:hover {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
