@@ -147,10 +147,6 @@ body {
   line-height: 1.36;
   text-align: center;
   text-transform: uppercase;
-  padding-left: 282px;
-  padding-right: 230px;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 /* Section */
@@ -161,6 +157,9 @@ body {
   line-height: 1.16;
   text-align: center;
 }
+.hidden {
+  display: none;
+}
 
 /* Features */
 .features {
@@ -169,6 +168,12 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.section-features {
+  list-style-type: none;
+  display: flex;
+  margin-top: 94px;
 }
 
 .features-list {
