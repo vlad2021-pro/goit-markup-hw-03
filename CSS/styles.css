@@ -95,10 +95,12 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.header {
+.link,
+.current {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -108,6 +110,11 @@ body {
 }
 .site-nav .link.current {
   color: var(--accent-color);
+}
+.nav,
+.nav-current {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /* Contact-list  для индекса и портфолио*/
 
@@ -156,6 +163,10 @@ body {
 }
 
 /* Section */
+
+.section {
+  padding-top: 94px;
+}
 .section-title {
   color: var(--primary-texr-color);
   font-weight: 700;
@@ -164,8 +175,7 @@ body {
   text-align: center;
 }
 .heading {
-  padding-bottom: 50px;
-  padding-top: 94px;
+  margin-bottom: 50px;
 }
 
 .image-box {
@@ -190,7 +200,6 @@ body {
 .section-features {
   list-style-type: none;
   display: flex;
-  padding-top: 94px;
 }
 
 .features-list {
@@ -230,7 +239,6 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  margin-top: 30px;
 }
 .head {
   margin-bottom: 50px;
@@ -242,6 +250,11 @@ body {
   line-height: 1.18;
   text-align: center;
   margin-top: 10px;
+}
+
+.team-colums {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .masters-list {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -340,8 +353,6 @@ body {
   list-style-type: none;
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .nav-portfolio .nav:hover,
 .nav-portfolio .nav:focus {
@@ -355,6 +366,8 @@ body {
 /* .section-portfolio */
 .section-portfolio {
   color: var(--primary-texr-color);
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 /* примеры работ */
@@ -394,9 +407,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  margin-top: 20px;
-  margin-left: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 4px;
 }
 .examples-list {
   color: var(--title-text-color);
@@ -404,7 +415,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-  margin-left: 24px;
 }
 /* Button-portfolio */
 .button-portfolio .button-current {
@@ -432,9 +442,7 @@ body {
   justify-content: center;
   margin-bottom: 50px;
 }
-.btm-portfolio {
-  margin-top: 94px;
-}
+
 .btm-portfolio:not(:last-child) {
   margin-right: 8px;
 }
