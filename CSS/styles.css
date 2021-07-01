@@ -139,6 +139,8 @@ body {
 /* ***Блок-герой*** */
 .hero {
   background-color: var(--color-baner);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: var(--white-color);
@@ -147,6 +149,7 @@ body {
   line-height: 1.36;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 /* Section */
@@ -156,6 +159,17 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+}
+.heading {
+  margin-bottom: 50px;
+  margin-top: 94px;
+}
+
+.image-box {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 94px;
 }
 .hidden {
   display: none;
@@ -182,9 +196,30 @@ body {
   font-size: 14px;
   line-height: 1.7;
 }
+.advantages {
+  margin-right: 30px;
+}
+.advantages:last-child {
+  margin-right: 0px;
+}
 /* Team-list */
+
+.team {
+  display: flex;
+  list-style-type: none;
+  margin-left: -30px;
+  margin-top: -50px;
+}
+
+.masters-list {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
 .section-team {
   background-color: var(--current-fon-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-list {
   color: var(--primary-texr-color);
@@ -192,6 +227,10 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-top: 30px;
+}
+.head {
+  margin-bottom: 50px;
 }
 .team-professional {
   color: var(--title-text-color);
@@ -199,6 +238,12 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-top: 10px;
+}
+.masters-list {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* Вutton  */
@@ -224,6 +269,8 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 1.14;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .logo-footer {
@@ -234,6 +281,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  padding-top: 60px;
 }
 
 .logo-footer :hover {
@@ -246,12 +294,16 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
+.footer-address {
+  margin-top: 20px;
+}
 .address {
   color: var(--white-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  margin-bottom: 9px;
 }
 .contacts-footer {
   color: var(--title-text-color);
@@ -261,8 +313,19 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   font-style: normal;
+  list-style-type: none;
+  margin-bottom: 9px;
+}
+.tell {
+  padding-top: 60px;
+}
+.footer-cont {
+  margin-bottom: 9px;
 }
 
+.mail {
+  margin-bottom: 9px;
+}
 /* Портфолио */
 /* Навигация страницы портфолио */
 
@@ -274,6 +337,14 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  list-style-type: none;
+}
+.nav-portfolio {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .nav-portfolio .nav:hover,
 .nav-portfolio .nav:focus {
@@ -290,6 +361,23 @@ body {
 }
 
 /* примеры работ */
+.work-box {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: -30px;
+  margin-left: -30px;
+  margin-bottom: 94px;
+}
+.examples-box {
+  margin-top: 30px;
+  margin-left: 30px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .work-list {
   font-family: Roboto;
   font-style: normal;
@@ -305,6 +393,9 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  margin-top: 20px;
+  margin-left: 24px;
+  margin-bottom: 20px;
 }
 .examples-list {
   color: var(--title-text-color);
@@ -312,6 +403,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
+  margin-left: 24px;
 }
 /* Button-portfolio */
 .button-portfolio .button-current {
@@ -321,6 +413,30 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  cursor: pointer;
+  border-radius: 4px;
+  border-color: transparent;
+  outline: none;
+}
+.button-current {
+  padding: 6px 22px;
+}
+.button-portfolio {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+.btm-portfolio {
+  margin-right: 8px;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.btm-portfolio:last-child {
+  margin-right: 0px;
 }
 .button-portfolio .button-current:hover {
   color: var(--white-color);
