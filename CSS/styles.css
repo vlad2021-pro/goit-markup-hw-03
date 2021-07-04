@@ -163,11 +163,14 @@ body {
 }
 
 /* Section */
-
-.section {
+.feat {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.section {
+  padding-bottom: 94px;
+}
+
 .section-title {
   color: var(--primary-texr-color);
   font-weight: 700;
@@ -183,7 +186,6 @@ body {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
 }
 .hidden {
   display: none;
